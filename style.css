@@ -18,7 +18,7 @@ html {
 
 /* Header Start */
 header {
-    background-image: url('/Images/Header\ Background\ Image.png');
+    background-image: url('./Images/Header\ Background\ Image.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@ header {
 /* Header End */
 /* Banner Start */
 #banner {
-    background-image: url('/Images/Banner\ Background\ Image.png');
+    background-image: url('./Images/Banner\ Background\ Image.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ header {
     font-size: 20px;
     font-family: 'PT Serif', serif;
     font-weight: bold;
-    background-image: url('/Images/Banner\ Button\ Background.png');
+    background-image: url('./Images/Banner\ Button\ Background.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ header {
 /* Banner End */
 /* Container1 Start */
 #container1 {
-    background-image: url('/Images/Container\ 1\ Background\ Image.png');
+    background-image: url('./Images/Container\ 1\ Background\ Image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +166,7 @@ header {
 /* Container1 End */
 /* Container2 Start */
 #container2 {
-    background-image: url('/Images/Container\ 2\ Background\ Image.png');
+    background-image: url('./Images/Container\ 2\ Background\ Image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,7 +210,7 @@ header {
 /* Container2 End */
 /* Container3 Start */
 #container3 {
-    background-image: url('/Images/Container3\ Background\ Image.png');
+    background-image: url('./Images/Container3\ Background\ Image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -331,7 +331,7 @@ header {
 /* Container3 End */
 /* Container4 Start */
 #container4 {
-    background-image: url('/Images/Container4\ Background\ Image.png');
+    background-image: url('./Images/Container4\ Background\ Image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -374,7 +374,7 @@ header {
 }
 
 .box55 {
-    background-image: url('/Images/Container4\ Background\ Image.png');
+    background-image: url('./Images/Container4\ Background\ Image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -391,7 +391,7 @@ header {
     font-family: 'PT Serif', serif;
     font-weight: bold;
     color: #ee5d5d;
-    background-image: url('/Images/Container4\ Background\ Image.png');
+    background-image: url('./Images/Container4\ Background\ Image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -427,7 +427,7 @@ header {
 /* Container4 End */
 /* Container5 Start */
 #container5 {
-    background-image: url('/Images/Container5\ Background\ Image.png');
+    background-image: url('./Images/Container5\ Background\ Image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -547,7 +547,7 @@ input[type='submit'] {
 /* Container6 End */
 /* Fooetr Start */
 footer {
-    background-image: url('/Images/Footer\ Background\ Image.png');
+    background-image: url('./Images/Footer\ Background\ Image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -621,7 +621,7 @@ footer {
 
     /* Header Start */
     header {
-        background-image: url('/Images/Header\ Background\ Image.png');
+        background-image: url('./Images/Header\ Background\ Image.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -669,7 +669,7 @@ footer {
     /* Header End */
     /* Banner Start */
     #banner {
-        background-image: url('/Images/Banner\ Background\ Image.png');
+        background-image: url('./Images/Banner\ Background\ Image.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -702,7 +702,7 @@ footer {
         font-size: 15px;
         font-family: 'PT Serif', serif;
         font-weight: bold;
-        background-image: url('/Images/Banner\ Button\ Background.png');
+        background-image: url('./Images/Banner\ Button\ Background.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -713,7 +713,7 @@ footer {
     /* Banner End */
     /* Container1 Start */
     #container1 {
-        background-image: url('/Images/Container\ 1\ Background\ Image.png');
+        background-image: url('./Images/Container\ 1\ Background\ Image.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -778,7 +778,7 @@ footer {
     /* Container1 End */
     /* Container2 Start */
     #container2 {
-        background-image: url('/Images/Container\ 2\ Background\ Image.png');
+        background-image: url('./Images/Container\ 2\ Background\ Image.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -829,7 +829,7 @@ footer {
     /* Container2 End */
     /* Container3 Start */
     #container3 {
-        background-image: url('/Images/Container3\ Background\ Image.png');
+        background-image: url('./Images/Container3\ Background\ Image.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -938,7 +938,7 @@ footer {
     /* Container3 End */
     /* Container4 Start */
     #container4 {
-        background-image: url('/Images/Container4\ Background\ Image.png');
+        background-image: url('./Images/Container4\ Background\ Image.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -982,7 +982,7 @@ footer {
     }
 
     .box55 {
-        background-image: url('/Images/Container4\ Background\ Image.png');
+        background-image: url('./Images/Container4\ Background\ Image.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -999,7 +999,7 @@ footer {
         font-family: 'PT Serif', serif;
         font-weight: bold;
         color: #ee5d5d;
-        background-image: url('/Images/Container4\ Background\ Image.png');
+        background-image: url('./Images/Container4\ Background\ Image.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1035,7 +1035,7 @@ footer {
     /* Container4 End */
     /* Container5 Start */
     #container5 {
-        background-image: url('/Images/Container5\ Background\ Image.png');
+        background-image: url('./Images/Container5\ Background\ Image.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1162,7 +1162,7 @@ footer {
     /* Container6 End */
     /* Fooetr Start */
     footer {
-        background-image: url('/Images/Footer\ Background\ Image.png');
+        background-image: url('./Images/Footer\ Background\ Image.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
