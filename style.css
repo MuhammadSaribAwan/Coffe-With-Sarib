@@ -1,0 +1,1246 @@
+/* Css Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Main-Container Start */
+#main-container {
+    max-width: 1300px;
+    margin: 0px auto;
+}
+
+/* Main-Container End */
+
+/* Header Start */
+header {
+    background-image: url('/Images/Header\ Background\ Image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    margin: auto;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    padding: 20px 30px;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#logo {
+    padding: 10px 20px;
+}
+
+#logo img {
+    height: 50px;
+}
+
+/* Header End */
+/* Banner Start */
+#banner {
+    background-image: url('/Images/Banner\ Background\ Image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 779px;
+    width: 100%;
+}
+
+#bannerh1 {
+    font-size: 100px;
+    font-family: 'PT Serif', serif;
+    color: white;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+#bannerpara {
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+    color: white;
+    text-align: center;
+}
+
+#bannerbutton {
+    text-align: center;
+    margin: 90px 0px;
+}
+
+.bannerbtn {
+    color: white;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    background-image: url('/Images/Banner\ Button\ Background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+/* Banner End */
+/* Container1 Start */
+#container1 {
+    background-image: url('/Images/Container\ 1\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1 {
+    height: 325px;
+}
+
+.box1 img {
+    height: 324px;
+}
+
+#box1h2 {
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+    color: white;
+    padding: 5px 10px;
+}
+
+#box1h1 {
+    font-size: 80px;
+    font-family: 'PT Serif', serif;
+    color: white;
+    padding: 10px 10px;
+}
+
+#box1para {
+    font-size: 15.9px;
+    font-family: 'PT Serif', serif;
+    color: white;
+    padding: 0px 15px;
+}
+
+#button1 {
+    margin: 70px 20px;
+}
+
+.btn1 {
+    color: #ee5d5d;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    background-color: #eae0cc;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+/* Container1 End */
+/* Container2 Start */
+#container2 {
+    background-image: url('/Images/Container\ 2\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2 img {
+    height: 100%;
+    width: 100%;
+}
+
+#box2h1 {
+    font-size: 75px;
+    font-family: 'Yeseva One';
+    padding-top: 60px;
+    padding-right: 250px;
+}
+
+#box2para {
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    height: 200px;
+    width: 550px;
+    padding: 30px 5px;
+}
+
+#button2 {
+
+    padding: 0px 5px;
+}
+
+.btn2 {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    color: #ee5d5d;
+}
+
+/* Container2 End */
+/* Container3 Start */
+#container3 {
+    background-image: url('/Images/Container3\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+#container3h1 {
+    font-size: 70px;
+    font-family: 'Yeseva One';
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#container3para {
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#container3keander {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.box3 {
+    height: 300px;
+    width: 400px;
+}
+
+.box3image {
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-color: gray;
+}
+
+.box3image img {
+    height: 100%;
+    width: 100%;
+}
+
+.box3text {
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+
+.box3h1 {
+    font-size: 30px;
+    font-family: 'Yeseva One';
+    text-align: center;
+    padding: 20px 0px;
+    color: black;
+}
+
+.box3para {
+    font-size: 10px;
+    font-family: 'PT Serif', serif;
+    padding: 5px 0px;
+    height: 100px;
+    width: 190px;
+    margin: auto;
+    color: black;
+}
+
+.button3 {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.btn3 {
+    color: white;
+    background-color: #ee5d5d;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 17px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+
+.circles {
+    display: flex;
+    width: 100px;
+    margin: auto;
+}
+
+.circle1 {
+    height: 20px;
+    width: 20px;
+    border: 3px solid white;
+    border-radius: 50px;
+    background-color: white;
+    margin: 5px 3px;
+}
+
+.circle2 {
+    height: 20px;
+    width: 20px;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 5px 3px;
+}
+
+.circle3 {
+    height: 20px;
+    width: 20px;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 5px 3px;
+}
+
+/* Container3 End */
+/* Container4 Start */
+#container4 {
+    background-image: url('/Images/Container4\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+}
+
+#container4h1 {
+    font-size: 70px;
+    font-family: 'Yeseva One';
+    color: #ee5d5d;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#container4para {
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    color: #ee5d5d;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#container4keander {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+
+}
+
+.box4 {
+    height: 420px;
+    width: 300px;
+    background-color: white;
+}
+
+.box4 img {
+    height: 200px;
+    width: 100%;
+}
+
+.box55 {
+    background-image: url('/Images/Container4\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35px;
+    width: 120px;
+    padding: 10px 10px;
+    margin: auto;
+    position: relative;
+    bottom: 25px;
+}
+
+.box4h5 {
+    font-size: 17px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color: #ee5d5d;
+    background-image: url('/Images/Container4\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+    border: 2px solid #ee5d5d;
+    padding: 5px 20px;
+}
+
+.box5para {
+    font-size: 15px;
+    font-family: 'PT Serif', serif;
+    padding: 10px 0px;
+    color: black;
+    text-align: center;
+}
+
+.button4 {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.btn4 {
+    color: white;
+    background-color: #ee5d5d;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 17px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+
+/* Container4 End */
+/* Container5 Start */
+#container5 {
+    background-image: url('/Images/Container5\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box5first {
+    height: 390px;
+    width: 557px;
+}
+
+.box5first img {
+    height: 100%;
+    width: 100%;
+}
+
+.box5second {
+    height: 350px;
+    width: 500px;
+}
+
+#box5h1 {
+    font-size: 60px;
+    font-family: 'Yeseva One';
+    color: white;
+    padding: 0px 0px;
+}
+
+#box5para {
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    color: white;
+    padding: 30px 5px;
+}
+
+.secondimages {
+    padding: 0px 0px;
+}
+
+.secondimages img {
+    padding: 0px 10px;
+}
+
+/* Container5 End */
+/* Container6 Start */
+#container6 {
+    background-color: white;
+    height: 610px;
+    width: 100%;
+}
+
+.box6first {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.box6first img {
+    height: 100%;
+    width: 100%;
+}
+
+.box6second {
+    height: 100%;
+    float: right;
+    width: 50%;
+}
+
+#box6h1 {
+    font-size: 60px;
+    font-family: 'Yeseva One';
+    color: #ee5d5d;
+    padding: 25px 30px;
+}
+
+form {
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 570px;
+    margin: auto;
+}
+
+input {
+    display: block;
+    height: 40px;
+    width: 500px;
+    margin: 20px 0px;
+    background-color: whitesmoke;
+    padding: 5px 15px;
+}
+
+textarea {
+    background-color: whitesmoke;
+    border: 2px solid grey;
+    color: gray;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 15px;
+    height: 200px;
+    width: 500px;
+}
+
+input[type='submit'] {
+    background-color: #ee5d5d;
+    color: white;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+}
+
+/* Container6 End */
+/* Fooetr Start */
+footer {
+    background-image: url('/Images/Footer\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lastboximg {
+    height: 200px;
+}
+
+.lastboxh1 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    padding: 10px 5px;
+    color: white;
+}
+
+.lastboxpara {
+    font-size: 15px;
+    font-family: 'PT Serif', serif;
+    padding: 10px 8px;
+    color: white;
+}
+
+.lastboxh5 {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    padding: 10px 5px;
+    color: white;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    color: white;
+    padding: 5px 0px;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    text-decoration: none;
+}
+
+.lastbox .weblogo {
+    height: 100px;
+}
+
+.lastboxh2 {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    padding: 5px 0px;
+    color: white;
+}
+
+.lastboxbutton img {
+    padding: 10px 10px;
+}
+
+/* Fooetr End */
+
+/* Mobile Responsive Start */
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+
+    /* Header Start */
+    header {
+        background-image: url('/Images/Header\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: space-around;
+        height: 60px;
+        width: 300px;
+        margin: auto;
+    }
+
+    #navbar ul {
+        display: flex;
+    }
+
+    #navbar ul li {
+        list-style: none;
+        font-size: 10px;
+        font-family: 'PT Serif', serif;
+        padding: 30px 2px;
+    }
+
+    #navbar ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 5px;
+        border-radius: 25px;
+    }
+
+    #navbar ul li a:hover {
+        color: black;
+        background-color: white;
+    }
+
+    #logo {
+        padding: 25px 0px;
+    }
+
+    #logo img {
+        height: 30px;
+    }
+
+    /* Header End */
+    /* Banner Start */
+    #banner {
+        background-image: url('/Images/Banner\ Background\ Image.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 350px;
+        width: 100%;
+    }
+
+    #bannerh1 {
+        font-size: 45px;
+        font-family: 'PT Serif', serif;
+        color: white;
+        text-align: center;
+        padding: 30px 10px;
+    }
+
+    #bannerpara {
+        font-size: 7px;
+        font-family: 'PT Serif', serif;
+        color: white;
+        text-align: center;
+    }
+
+    #bannerbutton {
+        text-align: center;
+        margin: 30px 0px;
+    }
+
+    .bannerbtn {
+        color: white;
+        font-size: 15px;
+        font-family: 'PT Serif', serif;
+        font-weight: bold;
+        background-image: url('/Images/Banner\ Button\ Background.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 8px 20px;
+        text-decoration: none;
+    }
+
+    /* Banner End */
+    /* Container1 Start */
+    #container1 {
+        background-image: url('/Images/Container\ 1\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1 {
+        height: 180px;
+        width: 100%;
+        margin: 10px 0px;
+        padding: 0px 0px;
+    }
+
+    .box1 img {
+        height: 150px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    #box1h2 {
+        font-size: 15px;
+        font-family: 'PT Serif', serif;
+        color: white;
+        padding: 5px 0px;
+        text-align: center;
+    }
+
+    #box1h1 {
+        font-size: 30px;
+        font-family: 'PT Serif', serif;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+    #box1para {
+        font-size: 7px;
+        font-family: 'PT Serif', serif;
+        color: white;
+        padding: 0px 0px;
+        text-align: center;
+    }
+
+    #button1 {
+        margin: 30px 0px;
+        text-align: center;
+    }
+
+    .btn1 {
+        color: #ee5d5d;
+        font-size: 15px;
+        font-family: 'PT Serif', serif;
+        font-weight: bold;
+        background-color: #eae0cc;
+        padding: 8px 20px;
+        text-decoration: none;
+    }
+
+    /* Container1 End */
+    /* Container2 Start */
+    #container2 {
+        background-image: url('/Images/Container\ 2\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 580px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box2 {
+        height: 250px;
+        margin: 15px 0px;
+    }
+
+    .box2 img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #box2h1 {
+        font-size: 30px;
+        font-family: 'Yeseva One';
+        padding: 0px 0px;
+        text-align: center;
+    }
+
+    #box2para {
+        font-size: 10px;
+        font-family: 'PT Serif', serif;
+        height: 80px;
+        width: 300px;
+        margin: 5px auto;
+        padding: 10px 5px;
+        text-align: center;
+    }
+
+    #button2 {
+        text-align: center;
+        padding: 0px 5px;
+    }
+
+    .btn2 {
+        font-family: 'PT Serif', serif;
+        font-size: 15px;
+        color: #ee5d5d;
+    }
+
+    /* Container2 End */
+    /* Container3 Start */
+    #container3 {
+        background-image: url('/Images/Container3\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px;
+        width: 100%;
+    }
+
+    #container3h1 {
+        font-size: 50px;
+        font-family: 'Yeseva One';
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    #container3para {
+        font-size: 7px;
+        font-family: 'PT Serif', serif;
+        color: white;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    #container3keander {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0px;
+    }
+
+    .box3 {
+        height: 220px;
+        width: 300px;
+        margin: auto;
+        padding: 20px 0px;
+    }
+
+    .box3image {
+        float: left;
+        height: 100%;
+        width: 50%;
+        background-color: gray;
+    }
+
+    .box3image img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .box3text {
+        float: right;
+        height: 100%;
+        width: 50%;
+        background-color: white;
+    }
+
+    .box3h1 {
+        font-size: 20px;
+        font-family: 'Yeseva One';
+        text-align: center;
+        padding: 20px 0px;
+        color: black;
+    }
+
+    .box3para {
+        font-size: 8px;
+        font-family: 'PT Serif', serif;
+        padding: 5px 0px;
+        height: 60px;
+        width: 140px;
+        margin: 0px auto;
+        text-align: center;
+        color: black;
+    }
+
+    .button3 {
+        text-align: center;
+        padding: 20px 0px;
+    }
+
+    .btn3 {
+        color: white;
+        background-color: #ee5d5d;
+        text-decoration: none;
+        padding: 8px 20px;
+        font-size: 15px;
+        font-family: 'PT Serif', serif;
+        font-weight: bold;
+    }
+
+    .circles {
+        display: none;
+    }
+
+    .circle1 {
+        display: none;
+    }
+
+    .circle2 {
+        display: none;
+    }
+
+    .circle3 {
+        display: none;
+    }
+
+    /* Container3 End */
+    /* Container4 Start */
+    #container4 {
+        background-image: url('/Images/Container4\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1600px;
+        width: 100%;
+    }
+
+    #container4h1 {
+        font-size: 50px;
+        font-family: 'Yeseva One';
+        color: #ee5d5d;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    #container4para {
+        font-size: 7px;
+        font-family: 'PT Serif', serif;
+        color: #ee5d5d;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    #container4keander {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0px;
+
+    }
+
+    .box4 {
+        height: 420px;
+        width: 300px;
+        background-color: white;
+        margin: 20px auto;
+    }
+
+    .box4 img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .box55 {
+        background-image: url('/Images/Container4\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 35px;
+        width: 120px;
+        padding: 10px 10px;
+        margin: auto;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .box4h5 {
+        font-size: 17px;
+        font-family: 'PT Serif', serif;
+        font-weight: bold;
+        color: #ee5d5d;
+        background-image: url('/Images/Container4\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        margin: auto;
+        border: 2px solid #ee5d5d;
+        padding: 5px 20px;
+    }
+
+    .box5para {
+        font-size: 15px;
+        font-family: 'PT Serif', serif;
+        padding: 10px 0px;
+        color: black;
+        text-align: center;
+    }
+
+    .button4 {
+        text-align: center;
+        padding: 20px 0px;
+    }
+
+    .btn4 {
+        color: white;
+        background-color: #ee5d5d;
+        text-decoration: none;
+        padding: 10px 30px;
+        font-size: 17px;
+        font-family: 'PT Serif', serif;
+        font-weight: bold;
+    }
+
+    /* Container4 End */
+    /* Container5 Start */
+    #container5 {
+        background-image: url('/Images/Container5\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 570px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box5first {
+        height: 200px;
+        width: 300px;
+        margin: 20px auto;
+    }
+
+    .box5first img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .box5second {
+        height: 250px;
+        width: 300px;
+        margin: auto;
+    }
+
+    #box5h1 {
+        font-size: 40px;
+        font-family: 'Yeseva One';
+        color: white;
+        text-align: center;
+        padding: 0px 0px;
+    }
+
+    #box5para {
+        font-size: 10px;
+        font-family: 'PT Serif', serif;
+        color: white;
+        text-align: center;
+        padding: 30px 5px;
+    }
+
+    .secondimages {
+        padding: 0px 0px;
+        text-align: center;
+    }
+
+    .secondimages img {
+        padding: 0px 10px;
+    }
+
+    /* Container5 End */
+    /* Container6 Start */
+    #container6 {
+        background-color: white;
+        height: 880px;
+        width: 100%;
+    }
+
+    .box6first {
+        height: 200px;
+        width: 100%;
+        float: left;
+    }
+
+    .box6first img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .box6second {
+        height: 600px;
+        float: left;
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    #box6h1 {
+        font-size: 40px;
+        font-family: 'Yeseva One';
+        color: #ee5d5d;
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+    form {
+        height: 480px;
+        width: 300px;
+        margin: auto;
+    }
+
+    input {
+        display: block;
+        height: 40px;
+        width: 250px;
+        margin: 20px auto;
+        background-color: whitesmoke;
+        padding: 5px 15px;
+    }
+
+    textarea {
+        background-color: whitesmoke;
+        border: 2px solid grey;
+        color: gray;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        padding: 5px 15px;
+        height: 200px;
+        width: 250px;
+        display: block;
+        margin: auto;
+    }
+
+    input[type='submit'] {
+        background-color: #ee5d5d;
+        color: white;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        height: 50px;
+        width: 150px;
+    }
+
+    /* Container6 End */
+    /* Fooetr Start */
+    footer {
+        background-image: url('/Images/Footer\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1720px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lastbox img {
+        height: 100px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .lastboxh1 {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'PT Serif', serif;
+        padding: 10px 5px;
+        text-align: center;
+        color: white;
+    }
+
+    .lastboxpara {
+        font-size: 15px;
+        font-family: 'PT Serif', serif;
+        text-align: center;
+        padding: 10px 8px;
+        color: white;
+    }
+
+    .lastboxh5 {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'PT Serif', serif;
+        text-align: center;
+        padding: 10px 5px;
+        color: white;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links a {
+        color: white;
+        padding: 5px 0px;
+        font-size: 20px;
+        font-family: 'PT Serif', serif;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .lastbox .weblogo {
+        height: 50px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .lastboxh2 {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'PT Serif', serif;
+        padding: 5px 0px;
+        text-align: center;
+        color: white;
+    }
+
+    .lastboxbutton img {
+        padding: 0px 0px;
+        height: 50px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    /* Fooetr End */
+}
+
+/* Mobile Responsive End */
